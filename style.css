@@ -1,0 +1,270 @@
+.body{
+    background-color: #f4eedd;
+}
+
+/*INICIO*/
+.navbar{
+    padding: 2rem;
+    background-color: #f4eedd;
+}
+h1{
+    font-size: 45pt;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400s;
+    font-style: normal;  
+}
+.lead{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn{
+    width: 300px;
+}
+.color
+{
+    padding: 2.5rem;
+    min-height: 250px;
+    display: grid;
+    place-items: center;
+    align-items: flex-end;
+    background: #f4eedd;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: slideFadeIn 1.2s ease forwards;
+    position: relative;
+
+
+  }
+  @keyframes slideFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .header-text h1{
+    background: linear-gradient(90deg, #4cc44c, #1a5a16) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .header-text p{
+    color: rgb(1, 28, 2)
+
+  }
+/*POR QUE ESTE PROYECTO*/
+.contenedor{
+    margin-top: 10px;
+    display: flex;
+    background-color:#7BB662;
+    padding: 25px;
+}
+.imagenes{
+    width: 300px;
+    height: 270px;
+    border-radius: 10%;
+
+}
+.texto.mb-4{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25pt;
+    font-style: normal;
+    color: white;
+    flex: 1;
+   
+
+}
+.seccion-texto{
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 12pt;
+    color: white;
+    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+/* RAÍCES Y RESISTENCIA*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mb-4{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25pt;
+    font-style: normal;
+    color: black;
+    flex: 1;
+}
+.fondo{
+    
+    background-color: #f4eedd;
+}
+
+.seccion-texto2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 12pt;
+    color: black;
+    padding-right: 80px;
+    margin: 25px
+
+}
+.section {
+    scroll-margin-top: 80px;
+    
+}
+img.derecha2{
+    width: 350px;
+    height: 350px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+audio{
+    margin: 15px;
+}
+.video{
+    width: 350px;
+    height: 350px;
+    margin-left: 15 px;
+    
+}
+/*VISUALIZANDO EL IMPACTO*/
+h2.mb-5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25pt;
+    font-style: normal;
+    color: black;
+    margin: 25px;
+}
+.seccion-texto3{
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 12pt;
+    color: black;
+    padding-right: 80px;
+    margin: 0.5rem;
+}
+h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25pt;
+    font-style: normal;
+    color: white;
+}
+.textito{
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 12pt;
+    color: white;
+}
+/* SABERES INDÍGENAS Y RESILIENCIA*/
+.color2{
+    background-color: #7BB662;
+}
+.seccion-texto3{
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 12pt;
+    color: black;
+    padding-right: 10px;
+    margin: 15px
+}
+/*Transformaciones en Movimiento:*/
+.texto4{
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 12pt;
+    color: black;
+    padding-block-start: 5px;
+    
+}
+.container-column {
+    
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 80px;
+  }
+  /*Multimedia*/
+  h2.title{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25pt;
+    font-style: normal;
+    color: white;
+    flex: 1;
+  }
+  .texto5{
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 12pt;
+    color: white;
+    padding-block-start: 5px;
+  }
+ section.color3{
+    background-image: url('images/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  z-index: 0;
+ }
+ .overlay{
+    background-color: rgb(0, 0, 0, 0.5); /* oscurece para contraste */
+    
+ }
+
+.text h5{
+    background: linear-gradient(90deg, #4cc44c, #1a5a16) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.text p{
+    color: #1a5a16;
+    font-weight: normal;
+}
+small{
+    color: #1a5a16;
+}
+
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #004400;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    background-color: #2ae718;
+}
+.iconos-redes-sociales i{
+    color: rgb(5, 0, 4);
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover{
+    background-color: #000200;
+    border: 2px solid rgb(29, 248, 0);
+}
+.iconos-redes-sociales a:hover i{
+    color: #004400;
+}
+.button{
+    color: #004400;
+}
